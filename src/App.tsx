@@ -16,6 +16,7 @@ import {Menu} from '@material-ui/icons';
 import {TodoList} from './TodoList';
 import {AddItemAny} from './AddItemAny';
 
+//add comment
 export type FilterType = 'all' | 'completed' | 'active';
 type ListType = {
     id: string;
