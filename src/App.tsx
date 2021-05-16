@@ -30,7 +30,9 @@ export type TaskType = {
 type TasksType = {
     [key: string]: TaskType[];
 }
-
+function hello() {
+    console.log('hello')
+}
 export function App() {
     const idList1 = v1();
     const idList2 = v1();
